@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 
 
@@ -41,8 +41,6 @@ function CardBaby({desc, title}) {
       <h1>{title}</h1>
       <p>{desc}</p>
     </div>
-
   )
-
 }
 
